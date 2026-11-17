@@ -1,0 +1,49 @@
+{
+  "name": "envguard",
+  "version": "1.0.0",
+  "description": "Simple environment variable validation for Node.js",
+  "type": "module",
+  "main": "./src/index.cjs",
+  "module": "./src/index.js",
+  "types": "./src/index.d.ts",
+  
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./src/index.d.ts",
+        "default": "./src/index.js"
+      },
+      "require": {
+        "types": "./src/index.d.ts",
+        "default": "./src/index.cjs"
+      }
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "environment",
+    "env",
+    "validation",
+    "nodejs",
+    "config",
+    "typescript",
+    "esm",
+    "commonjs"
+  ],
+  "author": "Devesh113",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^4.0.0"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
