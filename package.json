@@ -6,7 +6,6 @@
   "main": "./src/index.cjs",
   "module": "./src/index.js",
   "types": "./src/index.d.ts",
-  
   "exports": {
     ".": {
       "import": {
@@ -45,5 +44,13 @@
     "src",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devesh113/envguard.git"
+  },
+  "homepage": "https://github.com/Devesh113/envguard#readme",
+  "bugs": {
+    "url": "https://github.com/Devesh113/envguard/issues"
+  }
 }
